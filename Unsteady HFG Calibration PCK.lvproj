@@ -17,6 +17,9 @@
 			<Item Name="App Data.ctl" Type="VI" URL="../Controls/App Data.ctl"/>
 			<Item Name="UI References.ctl" Type="VI" URL="../Controls/UI References.ctl"/>
 		</Item>
+		<Item Name="Icons" Type="Folder">
+			<Item Name="HFG Icon.ico" Type="Document" URL="../Icons/HFG Icon.ico"/>
+		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Channel Selection" Type="Folder">
 				<Item Name="Channel Validation.vi" Type="VI" URL="../SubVIs/Channel Selection/Channel Validation.vi"/>
