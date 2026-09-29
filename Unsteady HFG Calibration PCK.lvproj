@@ -281,7 +281,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Unsteady HFG Calibration PCK App</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9972C6C7-929D-4957-82D1-F2A11B0DBF11}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Unsteady HFG Calibration PCK.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Unsteady HFG Calibration PCK App/NI_AB_PROJECTNAME.exe</Property>
