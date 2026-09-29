@@ -259,7 +259,7 @@
 			</Item>
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
-			<Item Name="Stream-a[.](wfm(dbl)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.](wfm(dbl)).lvlib"/>
+			<Item Name="Stream-c(a[.](wfm(dbl)),dbl,u16[Idle,Delay,Voltage,Response]).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(a[.](wfm(dbl)),dbl,u16[Idle,Delay,Voltage,Response]).lvlib"/>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
