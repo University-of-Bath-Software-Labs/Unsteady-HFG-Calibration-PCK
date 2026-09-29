@@ -265,6 +265,50 @@
 			<Item Name="Stream-c(a[.](wfm(dbl)),dbl,u16[Idle,Delay,Voltage,Response]).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(a[.](wfm(dbl)),dbl,u16[Idle,Delay,Voltage,Response]).lvlib"/>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="HFG EXE" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{BCC2B3F9-5A81-4469-9974-9153A3EB31A3}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{7C0288A2-24B3-40F0-A450-0596B3F473FE}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{217EAC03-F1EB-4149-BA32-69118DAE2538}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">HFG EXE</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Unsteady HFG Calibration PCK App</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9972C6C7-929D-4957-82D1-F2A11B0DBF11}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Unsteady HFG Calibration PCK.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Unsteady HFG Calibration PCK App/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Unsteady HFG Calibration PCK App/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons/HFG Icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{79ADC4A1-B99D-44DA-A988-084C27956E54}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">University of Bath</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">LabVIEW-based Unsteady HFG Calibration system using NI DAQ hardware. Applies a timed analogue voltage, acquires Bridge OP and Shunt Voltage measurements, and records calibration data to CSV.</Property>
+				<Property Name="TgtF_internalName" Type="Str">HFG EXE</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 University of Bath</Property>
+				<Property Name="TgtF_productName" Type="Str">HFG EXE</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{7621CB8C-6F8E-42E5-AD3D-4C274AECE177}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Unsteady HFG Calibration PCK.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
