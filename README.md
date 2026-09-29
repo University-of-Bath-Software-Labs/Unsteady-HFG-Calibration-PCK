@@ -1,7 +1,7 @@
 # Unsteady HFG Calibration PCK
 ## Overview
 
-This project provides a LabVIEW-based application for performing **Unsteady Heat Flux Gauge (HFG) calibration** using NI DAQ hardware.
+This project provides a LabVIEW-based application for performing **Unsteady HFG calibration** using NI DAQ hardware.
 
 The application automatically performs a timed calibration sequence by applying a user-defined voltage and recording the resulting **Bridge OP** and **Shunt Voltage** measurements.
 
